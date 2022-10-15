@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="aos-by-red.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <meta name="description" content="Art studio offering healing through art therapy">
+      <meta name="keywords" content="art therapy, art studio, art classes, art, healing, trauma">
+      <meta name="author" content="roibeard_ruadhan">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <!-- <a href="https://www.flaticon.com/free-icons/painting" title="painting icons">
+         Painting icons created by Freepik Flaticon; this commented out 
+         code is just for the purpose of attribution: <a href="https://www.flaticon.com/ -->
+            <title>Creative Art Therapy</title>
+            <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+   </head>
+   <body>
+      <!-- Header containing logo and nav-bar -->
+      <header id="booking-header">
+         <!-- Logo -->
+         <div id="cat-logo">
+            <a href="index.html">
+               <h1>Creative</h1>
+               <hr>
+               <p>Art Therapy</p>
+            </a>
+         </div>
+         <!-- Nav bar -->
+         <nav>
+            <ul class="nav-flex-container">
+               <li class="nav-flex-item"> <a href="index.html" aria-label="Link to Homepage">Home</a>
+               </li>
+               <li class="nav-flex-item"> <a href="about.html"
+                  aria-label="Link to the about page">about</a></li>
+               <li class="nav-flex-item"> <a href="book-now.html" class="active"
+                  aria-label="Link to to the Booking page">Book now!</a></li>
+            </ul>
+            <!-- Hamburger menu for smartphones: adapted on the tutorial followed on https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci -->
+            <div class="hamburger">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+            </div>
+         </nav>
+      </header>
+      <main id="booking-main" class="booking-confirmation-main">
+         <!-- Booking confirmation text container -->
+         <section id="booking-confirmation">
+            <h2>Thank you for completing the form!</h2>
+            <p>Your request has been submitted correctly and you'll be soon contacted by a member of our staff
+               to confirm your booking.
+               <br> <br>
+               We look forward to seeing you at Creative Art Therapy!
+            </p>
+            <!-- Booking confirmation container for buttons that redirect to either another booking or homepage -->
+            <div id="flex-form-btns" class="booking-confirmation-btns">
+               <button class="book-btn" onclick="window.location.href ='book-now.html'">Book another session</button>
+               <button class="btn-bg" onclick="window.location.href ='index.html'">Back to homepage</button>
+            </div>
+         </section>
+      </main>
+      <!-- footer structure -->
+      <footer>
+         <!-- Address and contacts block -->
+         <div class="footer-flex-item">
+            <h2>Address:</h2>
+            <p>Unit 3, The Village Centre K78 P2P3 /</p>
+            <p>The Art Nest Woodpark, The Rise, Glasnevin D09R603</p>
+            <br>
+            <h2>Contact:</h2>
+            <p>+353 087-6099917</p>
+            <a href="mailto:roibeard.c@outlook.com ">info@creativearttherapy.ie</a>
+         </div>
+         <!-- Website Nav block -->
+         <div class="footer-flex-item">
+            <h2>Creative Art Therapy</h2>
+            <br>
+            <a href="index.html" aria-label="Link to Homepage"><h3>Home</h3></a>
+            <br>
+            <a href="about.html"aria-label="Link to the About page"><h3>About</h3></a>
+            <br>
+            <a href="book-now.html" aria-label="Link to to the Booking page"><h3>Book Now</h3></a>
+         </div>
+         <!-- Social media links -->
+         <div class="footer-flex-item">
+            <ul id="social-container">
+               <li>
+                  <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                     aria-label="Visit our Facebook page (opens in a new tab)"> <i class="fab fa-facebook-f"></i></a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+               </li>
+            </ul>
+         </div>
+      </footer>
+      <!-- Scripts  -->
+      <!-- Font awesome script -->
+      <script src="https://kit.fontawesome.com/1705e36da1.js" crossorigin="anonymous"></script>
+      <!-- dev.to script for hamburger menu -->
+      <script>
+         const hamburger = document.querySelector(".hamburger");
+         const navMenu = document.querySelector(".nav-flex-container");
+         
+         hamburger.addEventListener("click", mobileMenu);
+         
+         function mobileMenu() {
+             hamburger.classList.toggle("active");
+             navMenu.classList.toggle("active");
+         }
+         // To close the hamburger menu when we click a link
+         
+         const navLink = document.querySelectorAll(".nav-link");
+         
+         navLink.forEach(n => n.addEventListener("click", closeMenu));
+         
+         function closeMenu() {
+             hamburger.classList.remove("active");
+             navMenu.classList.remove("active");
+         }
+      </script>
+   </body>
+</html>
