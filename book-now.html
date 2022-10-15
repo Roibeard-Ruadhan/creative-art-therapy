@@ -49,7 +49,7 @@
          <section id="booking-form">
             <!-- booking form starts here -->
             <!-- it redirects to booking-confirmation.html if filled in correctly -->
-            <form method="GET" action="booking-confirmation.html" class="booking-form">
+            <form action="https://formsubmit.co/roibeard.c@outlook.com" method="POST" class="booking-form">
                <h2>Book a Session !</h2>
                <!-- Grid container for name, surname, email and phone inputs -->
                <div id="grid-inputs">
@@ -95,13 +95,13 @@
                <div>
                   <div id="message">
                      <legend> Message </legend>
-                     <textarea id="message" name="message" rows="3" required></textarea>
+                     <textarea id="message" placeholder="Write your message here" name="message" rows="3" required></textarea>
                   </div>
                </div>
 
                <!-- flex container for submit the form button and reset the form button -->
                <div id="flex-form-btns">
-                  <button class="book-btn">Book now!</button>
+                  <button type="submit" class="book-btn">Book now!</button>
                   <input type="reset" value="Reset form" class="btn-bg" id="reset-btn">
                </div>
             </form>
