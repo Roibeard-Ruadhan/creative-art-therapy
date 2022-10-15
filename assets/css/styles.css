@@ -442,7 +442,6 @@ footer a {
 }
 .about-details p {
     max-width: 70vw;
-    padding-top: 1rem;
     margin-top: 1rem;
 }
 .bold-specifics {
@@ -458,7 +457,7 @@ footer a {
 }
 /* About page page buttons styles */
 .buttons-section {
-    margin: 2rem auto;
+    margin-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -836,7 +835,6 @@ textarea{width: auto;}
          display: flex;
          flex-direction: column;
          text-align: center;
-         gap: 1rem;
     }
      .about-box img {
          width: 200px;
@@ -871,7 +869,7 @@ textarea{width: auto;}
          max-width: 100%;
     }
      #grid-inputs {
-         gap: 3rem;
+         gap: 1rem;
          margin: 0 auto;
     }
      .grid-item {
