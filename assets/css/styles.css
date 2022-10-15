@@ -231,6 +231,22 @@ intro h2 {
     margin: 20px;
 }
 
+.image-left {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 650px;
+}
+
+.image-right {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 650px;
+}
+
 /* Quotes breaking up the home page */
 .qoute {
     display: flex;
@@ -977,7 +993,7 @@ textarea{width: auto;}
         width: 300px;
     }
 
-
+}
 @media (min-width:950px) and (max-width:1200px) {
     
     /*Workshop Goals Tablet View*/
@@ -988,6 +1004,21 @@ textarea{width: auto;}
 
     .text-right p {
         padding: 0 40px;
+    }
+    .image-left {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+        width: 530px;
+    }
+
+    .image-right {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+        width: 530px;
     }
 
 }
