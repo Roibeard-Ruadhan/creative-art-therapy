@@ -231,7 +231,7 @@ intro h2 {
     margin: 20px;
 }
 
-/* meet the therapist. about page section styles */
+/* Quotes breaking up the home page */
 .qoute {
     display: flex;
     justify-content: space-evenly;
@@ -282,7 +282,7 @@ intro h2 {
     margin: auto;
 }
     
-/* background images and styles for each genre box */
+/*  Meet the therapist. about page section styles  */
 .paragraph-2 {
     background: url(../images/try-this.jpg) no-repeat 20% 40%;
     background-size: cover;
@@ -905,7 +905,7 @@ textarea{width: auto;}
          margin-top: 0;
     }
      .booking-confirmation-btns {
-         margin-top: 3rem !important;
+         margin-top: 2rem !important;
     }
      .booking-confirmation-btns button {
          margin: 1rem !important;
@@ -913,7 +913,7 @@ textarea{width: auto;}
 }
 
 
-/* test */
+/* Introduction */
 @media screen and (max-width:1200px) {
     /* Introduction Tablet View*/
 
