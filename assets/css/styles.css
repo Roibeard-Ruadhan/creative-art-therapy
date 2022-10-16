@@ -265,7 +265,7 @@ intro h2 {
 
 .quote-container {
     font-family: 'Julius Sans One', sans-serif;
-    padding: 2rem 1rem;
+    padding: 5rem 1rem;
     height: 100%;
     width: 100%;
     text-align: center;
@@ -999,6 +999,10 @@ textarea{width: auto;}
         height: 240px;
         width: 300px;
     }
+    .quote-container {
+        font-family: 'Julius Sans One', sans-serif;
+        padding: 2.5rem 1rem;
+    }
 
 }
 @media (min-width:950px) and (max-width:1200px) {
@@ -1049,6 +1053,9 @@ textarea{width: auto;}
         height: 340px;
         width: 430px;
     }
-
+    .quote-container {
+        font-family: 'Julius Sans One', sans-serif;
+        padding: 1rem .5rem;
+    }
 
 }
