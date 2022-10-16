@@ -236,7 +236,7 @@ intro h2 {
     margin-left: auto;
     margin-right: auto;
     height: 500px;
-    width: 650px;
+    width: 50vw;
 }
 
 .image-right {
@@ -244,7 +244,7 @@ intro h2 {
     margin-left: auto;
     margin-right: auto;
     height: 500px;
-    width: 650px;
+    width: 50vw;
 }
 
 /* Quotes breaking up the home page */
