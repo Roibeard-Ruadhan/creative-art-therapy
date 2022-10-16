@@ -422,6 +422,14 @@ footer a {
     font-size: 2.5rem;
     color: #E2C372;
 }
+#social-container i:hover {
+    font-size: 3.5rem;
+    color: #ffffff;
+}
+
+.nav-footer:hover {
+    color: #E2C372;
+}
 /* Styles for about.html */
 /* hero content styles */
 .hero-about {
@@ -559,7 +567,6 @@ fieldset legend {
 }
 #flex-form-btns button, #flex-form-btns input {
     margin: 1rem auto 1rem;
-    border-radius: 0;
     border-radius: 10px;
 }
 #flex-form-btns button{
