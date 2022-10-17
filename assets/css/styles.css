@@ -378,6 +378,7 @@ iframe {
 /* Footer styles*/
 footer {
     background:#311247; 
+    position: relative;
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
 /* Flexbox for making the blocks equal in size and positioned on a single row */
@@ -429,6 +430,16 @@ footer a {
 
 .nav-footer:hover {
     color: #E2C372;
+}
+
+#copyright {
+    position: absolute;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
 }
 /* Styles for about.html */
 /* hero content styles */
@@ -708,6 +719,7 @@ textarea{width: auto;}
     }
     /* Footer styles */
      footer {
+        position: relative;
          display: grid;
          grid-template-columns: 1fr 1fr;
     }
