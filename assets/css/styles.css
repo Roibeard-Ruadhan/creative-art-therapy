@@ -10,7 +10,6 @@
 body {
     width: 100vw;
     background: #ffffff;
-    /* background-size: contain; */
     font-family: 'Nunito', sans-serif;
     font-size: 1.5rem;
     color: #141204;
@@ -66,12 +65,6 @@ header * {
     color: #E2C372;
 }
 
-/* #cat-logo {
-    border: 2.5px white;
-    border-style: inset; 
-    padding: 0.5rem; 
-    border-radius: 50%; 
- } */
 /* Navigation bar styles */
 .nav-flex-container {
     display: flex;
@@ -151,7 +144,7 @@ nav a:hover {
     margin-top: 2rem;
 }
 
-/* Book a class button styles */
+/* Book a session button styles */
 .book-btn {
     margin-top: 2rem;
     background-color: rgba(33, 26, 29, .9);
@@ -274,7 +267,7 @@ intro h2 {
     align-content: center;
     justify-content: space-evenly;
 }
-
+/* Offer details from therapist */
 .offer {
     display: flex;
     justify-content: space-evenly;
@@ -298,7 +291,7 @@ intro h2 {
     margin: auto;
 }
     
-/*  Meet the therapist. about page section styles  */
+/*  Meet the therapist. About page section styles  */
 .paragraph-2 {
     background: url(../images/try-this.jpg) no-repeat 20% 40%;
     background-size: cover;
@@ -315,15 +308,15 @@ intro h2 {
     background: url(../images/paint-brush-holder.jpg) no-repeat 20% 40%;
     background-size: cover;
 }
-/* Styles for buttons with cream background color */
+/* Styles for buttons */
 btn-bg {
-    background-color: rgb(197, 192, 185);
-    color: rgba(44, 52, 60);
+    background-color: #141204;
+    color: #E2C372;
     box-shadow: 0 12px 16px 0 rgba(197, 192, 185, 0.24), 0 17px 50px 0 rgba(197, 192, 185, 0.19);
 }
 btn-bg:hover {
-    background-color: rgba(44, 52, 60, .9);
-    color: rgb(197, 192, 185);
+    background-color: #311247;
+    color: #E2C372;
     box-shadow: 0 12px 16px 0 rgba(44, 52, 60, 0.24), 0 17px 50px 0 rgba(44, 52, 60, 0.19);
 }
 .classes-btn {
@@ -370,7 +363,7 @@ iframe {
     margin:2%;
     float: right;
 }
-
+/* this stops the foat function disrution the footer below it */ 
 .clearfix{
     clear:both
 }
@@ -457,7 +450,7 @@ footer a {
     font-size: 2rem;
     border-radius: 90px;
 }
-/* Styles for each paragraph in about container */
+/* Styles for each paragraph on the about page */
 .about-box {
     display: flex;
     flex-wrap: wrap;
@@ -490,7 +483,7 @@ footer a {
     width: 300px;
     height: 300px;
 }
-/* About page page buttons styles */
+/* About page buttons styles */
 .buttons-section {
     margin-bottom: 1rem;
     display: flex;
@@ -592,13 +585,9 @@ fieldset legend {
 #email {
     width: 230px;
 }
-input, #class-time {
-    border-radius: 10px;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.2rem;
-}
+
 textarea{width: auto;}
+
 #message {
     border-radius: 10px;
     font-family: 'Nunito', sans-serif;
@@ -635,10 +624,6 @@ textarea{width: auto;}
          max-height: 60vh;
          font-size: 1rem;
     }
-     therapy-img img {
-         width: 200px;
-         height: 200px;
-    }
      .about-specifics h3 {
          font-size: 2rem;
     }
@@ -666,19 +651,6 @@ textarea{width: auto;}
      .booking-confirmation-btns button {
          font-size: 1rem !important;
     }
-        /*Introduction*/
-
-    .text-left {
-        width:85%;
-        margin:0 auto;
-        padding-bottom: 10px;
-    }
-
-    .text-right {
-        width:85%;
-        margin:0 auto;
-        padding-bottom: 10px;
-    }
     /*Sign Up Form Tablet View*/
 
     .signup-form {
@@ -692,31 +664,6 @@ textarea{width: auto;}
 }
 /* media queries for medium and small devices (portrait tablets and large phones, 768px and down) */
  @media only screen and (max-width: 768px) {
-    /* Introduction section styles */
-    .image-left {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 340px;
-        width: 430px;
-    }
-
-    .image-right {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 340px;
-        width: 430px;
-        margin-bottom: auto;
-    }
-
-    .text-left p {
-        padding: 0 40px;
-    }
-
-    .text-right p {
-        padding: 0 40px;
-    }
     /* Footer styles */
      footer {
         position: relative;
@@ -836,21 +783,6 @@ textarea{width: auto;}
     /* Index.html sections styles */
      #location {
          margin: 1rem 0;
-    }
-    .image-left {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 340px;
-        width: 430px;
-    }
-
-    .image-right {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 340px;
-        width: 430px;
     }
     /* Footer styles */
      footer {
