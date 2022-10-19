@@ -606,7 +606,7 @@ textarea{width: auto;}
     }
     /* logo and nav styles */
      header {
-         height: 30vh;
+         height: 25vh;
          flex-direction: column;
          justify-content: center;
          gap: 3rem;
