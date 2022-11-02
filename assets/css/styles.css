@@ -102,11 +102,11 @@ nav a:hover {
     width: 100vw;
     height: 100vh;
     /* margin-bottom: 4rem; */
-    background: url(../images/wall-paint.jpg) no-repeat 40% 37%;
+    background: url(../images/hero.jpg) no-repeat 40% 37%;
     background-size: cover;
 }
 .hero-content {
-    background-color: rgba(44, 52, 60, .6);
+    /* background-color: rgba(44, 52, 60, .6); */
     background-size: 100%;
     color: rgb(255, 255, 255);
     padding: 3rem;
@@ -120,7 +120,7 @@ nav a:hover {
 }
 .hero-content-text {
     max-width: 60%;
-    background-color: rgba(33, 26, 29, .9);
+    background-color: rgba(33, 26, 29, .8);
     border: 1px solid white;
     color: #fbfbfb;
     padding: 2rem;
@@ -129,7 +129,7 @@ nav a:hover {
 .hero-content-text h2 {
     font-weight: 400;
     font-size: 2.5rem;
-    color: #E2C372;
+    color: #fff;
 }
 .hero-content-text h2 span {
     font-weight: bold;
@@ -292,10 +292,10 @@ intro h2 {
 }
     
 /*  Meet the therapist. About page section styles  */
-.paragraph-2 {
-    background: url(../images/try-this.jpg) no-repeat 20% 40%;
+/* .paragraph-2 {
+    background: url(../images/paint-pallet.jpg) no-repeat 20% 40%;
     background-size: cover;
-}
+} */
 .paragraph-3  {
     background: url(../images/palette.jpg) no-repeat 20% 40%;
     background-size: cover;
