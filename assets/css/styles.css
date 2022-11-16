@@ -290,24 +290,7 @@ intro h2 {
     text-align: initial !important;
     margin: auto;
 }
-    
-/*  Meet the therapist. About page section styles  */
-/* .paragraph-2 {
-    background: url(../images/paint-pallet.jpg) no-repeat 20% 40%;
-    background-size: cover;
-} */
-.paragraph-3  {
-    background: url(../images/palette.jpg) no-repeat 20% 40%;
-    background-size: cover;
-}
-.paragraph-4 {
-    background: url(../images/abstract.jpg) no-repeat 20% 40%;
-    background-size: cover;
-}
-.paragraph-5 {
-    background: url(../images/paint-brush-holder.jpg) no-repeat 20% 40%;
-    background-size: cover;
-}
+
 /* Styles for buttons */
 btn-bg {
     background-color: #141204;
