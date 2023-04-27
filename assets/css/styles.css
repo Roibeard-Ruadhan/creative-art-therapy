@@ -6,7 +6,6 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 body {
     width: 100vw;
@@ -14,6 +13,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 1.5rem;
     color: #141204;
+    overflow-x: hidden;
 }
 /* generic rule for all buttons */
 button, #reset-btn {
